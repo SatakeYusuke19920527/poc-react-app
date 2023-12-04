@@ -12,17 +12,15 @@
 
 ## 検証方法
 
-1. 以下のボタンより、Azure へリソースを Deploy
+1. Azure へリソースを Deploy
 
-![Deploy to Azure](https://aka.ms/deploytoazurebutton)
-
-以下 3 つのリソースが作成されます。
+以下 3 つのリソースを作成してください。
 
 - Azure OpenAI Service
 - Bing Search
 - Azure Static Web Apps
 
-2. 環境変数ファイルの作成及び、Static Web Apps に環境変数を設定
+1. 環境変数ファイルの作成及び、Static Web Apps に環境変数を設定
    .env.loca ファイルを作成し、以下の内容を記載します。
 
 ```:md
