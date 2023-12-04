@@ -25,12 +25,19 @@
 
 ```:md
 AZURE_OPENAI_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-AZURE_OPENAI_API_INSTANCE_NAME=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+AZURE_OPENAI_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 AZURE_OPENAI_API_DEPLOYMENT_NAME=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 AZURE_OPENAI_API_VERSION=2023-08-01-preview
 AZURE_OPENAI_API_ENDPOINT=https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 AZURE_BINGSEARCH_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
+
+AZURE_OPENAI_API_KEY: Azure OpenAI Service の API キー
+AZURE_OPENAI_API_KEY: Azure OpenAI Service の リソース名
+AZURE_OPENAI_API_DEPLOYMENT_NAME: Azure OpenAI Studio の デプロイメント名
+AZURE_OPENAI_API_VERSION: 2023-08-01-preview で ok
+AZURE_OPENAI_API_ENDPOINT: Azure OpenAI Service の エンドポイント
+AZURE_BINGSEARCH_API_KEY: Bing Search の API キー
 
 3. Azure Static Web Apps へデプロイ
    Azure へ移動し、Azure Static Web Apps のデプロイ設定へ github の URL を指定し、CI/CD を有効にします。
