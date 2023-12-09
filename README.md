@@ -25,10 +25,10 @@
 
 ```:md
 AZURE_OPENAI_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-AZURE_OPENAI_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+AZURE_OPENAI_API_INSTANCE_NAME=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 AZURE_OPENAI_API_DEPLOYMENT_NAME=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 AZURE_OPENAI_API_VERSION=2023-08-01-preview
-AZURE_OPENAI_API_ENDPOINT=https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+AZURE_OPENAI_API_ENDPOINT=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 AZURE_BINGSEARCH_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
